@@ -95,7 +95,7 @@ code {
 .about .headshot img{
   max-width: 250px;
   max-height: 250px;
-  border-radius: 8px;
+  border-radius: 10px;
   align-content: center;
 }
 
