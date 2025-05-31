@@ -29,7 +29,6 @@ code {
 
 
 /* Navbar styles */
-
 .navbar {
   background-color: #BEA1D9;
   padding: 40px;
@@ -62,9 +61,6 @@ code {
 }
 
 /* About page styles */
-
-
-
 .about {
   display: flex;
   flex-direction: column;
@@ -75,8 +71,8 @@ code {
 @media (min-width: 768px) {
   .about {
     flex-direction: row;
-    padding-left: 80px;
-    padding-right: 100px;
+    padding-left: 5%;
+    padding-right: 10%;
     gap: 60px;
   }
 }
@@ -86,7 +82,6 @@ code {
 .about .info {
   text-align: left;
   align-content: center;
-  padding-left: 20px;
   font-size: 20px;
   line-height: 35px;
 }
@@ -98,6 +93,41 @@ code {
   border-radius: 10px;
   align-content: center;
 }
+
+/* Portfolio styling */
+
+.portfolio {
+  display:grid;
+  padding: 5%;
+}
+
+.portfolioItem {
+  max-width: 300px;
+  height: auto;
+  border: #c1c1c1;
+  border-width: 2px;
+}
+
+.portfolioItem img {
+  max-width: 300px;
+}
+
+
+/*
+return ( 
+        <div className ='portfolioItem'>
+            <h2>Projects</h2>
+            { portfolios.map((portfolio) => (
+                <div className = 'portfolio-list' key={portfolio.id}>
+                    <h1>{portfolio.name}</h1>
+                    <p>{portfolio.description}</p> 
+                    <img src={portfolio.img}/>
+                </div>
+            ))}
+        </div>
+     );
+
+*/
 
 
 
