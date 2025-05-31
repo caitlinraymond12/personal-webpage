@@ -8,6 +8,19 @@
     src: url('../fonts/videoGameTwoReg.woff2');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section::before {
+  content: "";
+  display: block;
+  height: 100px; 
+  margin-top: -80px;
+  visibility: hidden;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -26,31 +39,32 @@ code {
   font-family: 'Retro Body';
 }
 
+.content {
+  padding-top: 80px ;
+}
 
 
 /* Navbar styles */
 .navbar {
   background-color: #BEA1D9;
-  padding: 40px;
+  padding: 30px;
   display: flex;
   flex-wrap:wrap;
-  max-width: 100%;
+  width: 100%;
+  position:fixed;
+  justify-content: center;
 }
 
-@media (min-width: 768px) {
-  .navbar {
-    padding: 40px;
-  }
-}
 
 .navbar .links {
-  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  gap: 24px; /* optional spacing between links */
   font-size: 18px;
 }
 
 .navbar a {
-  margin-left: 16px;
-  padding: 6px;
+  padding: 10px;
   text-decoration: underline;
   text-underline-offset: 3px;
   color: black;
@@ -62,6 +76,7 @@ code {
 
 /* About page styles */
 .about {
+  padding-top:100px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -96,38 +111,41 @@ code {
 
 /* Portfolio styling */
 
-.portfolio {
-  display:grid;
-  padding: 5%;
+.portfolio h1 {
+  text-align: center;
+  font-size: 30px;
 }
 
 .portfolioItem {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 20px; /* Space between items */
+  padding: 5%;
+  max-width: 100%;
+}
+
+
+
+
+.portfolioItem .portfolio-list {
   max-width: 300px;
   height: auto;
-  border: #c1c1c1;
-  border-width: 2px;
+  padding: 1%;
+  border: 2px solid #c1c1c1;
+  background-color: aliceblue;
 }
 
-.portfolioItem img {
-  max-width: 300px;
+.portfolioItem .portfolio-list:hover {
+  box-shadow: 1px 3px 5px #333
+}
+
+.portfolioItem .portfolio-list img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
 }
 
 
-/*
-return ( 
-        <div className ='portfolioItem'>
-            <h2>Projects</h2>
-            { portfolios.map((portfolio) => (
-                <div className = 'portfolio-list' key={portfolio.id}>
-                    <h1>{portfolio.name}</h1>
-                    <p>{portfolio.description}</p> 
-                    <img src={portfolio.img}/>
-                </div>
-            ))}
-        </div>
-     );
-
-*/
 
 
 
