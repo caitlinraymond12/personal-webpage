@@ -46,7 +46,7 @@ code {
 
 /* Navbar styles */
 .navbar {
-  background-color: #BEA1D9;
+  background-color: #98cbef;
   padding: 30px;
   display: flex;
   flex-wrap:wrap;
@@ -118,32 +118,33 @@ code {
 
 .portfolioItem {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-  gap: 20px; /* Space between items */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+  gap: 5%; /* Space between items */
   padding: 5%;
   max-width: 100%;
 }
 
 
-
-
 .portfolioItem .portfolio-list {
-  max-width: 300px;
+  max-width: 100%;
   height: auto;
   padding: 1%;
   border: 2px solid #c1c1c1;
   background-color: aliceblue;
 }
 
+
 .portfolioItem .portfolio-list:hover {
   box-shadow: 1px 3px 5px #333
 }
 
 .portfolioItem .portfolio-list img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   margin-top: 10px;
 }
+
+
 
 
 

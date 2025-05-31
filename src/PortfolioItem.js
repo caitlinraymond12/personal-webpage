@@ -9,8 +9,8 @@ const PortfolioItem = ({portfolios}) => {
                 <div className = 'portfolio-list' key={portfolio.id}>
                     <h1>{portfolio.name}</h1>
                     <p>{portfolio.description}</p> 
-                    <img src={portfolio.img}/>
-                </div>
+                        <img src={portfolio.img}/>
+                 </div>
             ))}
         </div>
      );
