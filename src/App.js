@@ -2,6 +2,7 @@ import About from './About';
 import NavBar from './NavBar';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
+import Landing from './Landing';
 
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
     <div className="App">
       <NavBar />
       <div className="content">
+        <section id="landing">
+          <Landing />
+        </section>
         <section id="about">
           <About />
         </section>
