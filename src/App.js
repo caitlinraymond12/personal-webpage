@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Landing from './Landing';
+import Footer from './Footer';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <section id="contact">
           <Contact />
         </section>
+        <Footer />
       </div>
     </div>
   );
