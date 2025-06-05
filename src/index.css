@@ -99,6 +99,8 @@ code {
   flex-direction: column;
   padding: 10px;
   gap: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .about h1 {
@@ -153,9 +155,11 @@ code {
 
 .portfolioItem {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
   gap: 5%;
 }
+
+
 
 .portfolioItem .portfolio-list {
   max-width: 100%;
@@ -228,6 +232,8 @@ code {
 
 .contact {
   padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 4%;
 }
 
 .contact h1 {
@@ -235,6 +241,18 @@ code {
   text-decoration: underline;
   text-decoration-thickness: 5px;
   text-underline-offset: 10px;
+}
+
+.contact .reasons {
+  display: flex;
+  gap:5%;
+}
+
+.contact .reasons h3 {
+ background-color: #090a31;
+ padding: 15px;
+ text-align: center;
+ border: 1px #f2f2f2 solid;
 }
 
 
