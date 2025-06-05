@@ -7,6 +7,7 @@ const projects = [
        name: "Map",
        img: mapImg,
        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+       link: "https://github.com/caitlinraymond12/projects/tree/main/shortest-path-on-map",
        id:1
     },
 
@@ -14,6 +15,7 @@ const projects = [
        name: "Portuguese",
        img: portImg,
        description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+       link: "https://github.com/caitlinraymond12/projects/tree/main/shortest-path-on-map",
        id:2
     },
 
@@ -21,12 +23,14 @@ const projects = [
        name: "Nim",
        img: nimImg,
        description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
+       link: "https://github.com/caitlinraymond12/projects/tree/main/shortest-path-on-map",
        id: 3
     },
     {
        name: "Map2",
        img: mapImg,
        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+       link: "https://github.com/caitlinraymond12/projects/tree/main//unlimited-calculator",
        id:4
     }
 ];

@@ -220,11 +220,11 @@ code {
   opacity: 1;
 }
 
-.text {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+.github-icon-1 {
+  color: black;
+  font-size: 48px;
+  background-color: white;
+  border-radius: 22px;
 }
 
 
@@ -236,6 +236,11 @@ code {
   margin-bottom: 4%;
 }
 
+.contact p {
+  font-size: 23px;
+  max-width: 300px;
+}
+
 .contact h1 {
   font-size: 30px;
   text-decoration: underline;
@@ -243,16 +248,67 @@ code {
   text-underline-offset: 10px;
 }
 
-.contact .reasons {
-  display: flex;
-  gap:5%;
+.contact h2 {
+  font-size: 60px;
+  max-width: 33%;
 }
 
-.contact .reasons h3 {
+.contact .reasons {
+  display: flex;
+  gap:15%;
+}
+
+/*.contact .reasons h3 {
  background-color: #090a31;
  padding: 15px;
  text-align: center;
  border: 1px #f2f2f2 solid;
+}*/
+
+/* Flipcard Styling */
+
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 100px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+ background-color: #090a31;
+ padding: 15px;
+ text-align: center;
+ border: 1px #f2f2f2 solid;
+}
+
+.flip-card-back {
+  background-color: #090a31;
+  padding: 15px;
+  text-align: center;
+  border: 1px #f2f2f2 solid;
+  transform: rotateY(180deg);
 }
 
 

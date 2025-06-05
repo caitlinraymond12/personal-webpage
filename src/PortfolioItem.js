@@ -1,4 +1,4 @@
-import image from './images/shortestPath.png'
+import { FaGithub } from 'react-icons/fa';
 
 const PortfolioItem = ({portfolios}) => {
 
@@ -10,7 +10,7 @@ const PortfolioItem = ({portfolios}) => {
                     <div class="container">
                         <img src={portfolio.img}/>
                         <div class="middle">
-                            <div class="text">John Doe</div>
+                            <a href={portfolio.link} rel="noopener" target = '_blank'><FaGithub className="github-icon-1" / ></a>
                         </div>
                     </div>
                     <div className = "info">
