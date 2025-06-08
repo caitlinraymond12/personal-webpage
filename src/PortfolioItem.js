@@ -27,19 +27,3 @@ export default PortfolioItem;
 
 
 
-/*
-
-    return ( 
-        <div className ='portfolioItem'>
-            { portfolios.map((portfolio) => (
-                <div className = 'portfolio-list' key={portfolio.id}>
-                    <img src={portfolio.img}/>
-                    <h1>{portfolio.name}</h1>
-                    <p>{portfolio.description}</p> 
-                 </div>
-            ))}
-        </div>
-     );
-}
- 
-*/

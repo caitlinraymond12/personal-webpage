@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 const Flipcard = () => {
     return ( 
@@ -11,7 +12,7 @@ const Flipcard = () => {
                             <div class="flip-card-back">
                                 <a href="https://github.com/caitlinraymond12" rel="noopener" target = '_blank'><FaGithub className="github-icon-2" / ></a>
                                 <a href="https://www.linkedin.com/in/caitlinaraymond/" rel="noopener" target = '_blank'><FaLinkedin className="linkedin-icon-1" / ></a>
-                                <a href="/" rel="noopener" target = '_blank'><MdEmail className="email-icon-1" / ></a>
+                                <a href="mailto:caitlinraymond13@gmail.com"><MdEmail className="email-icon-1" / ></a>
                             </div>
                         </div>
         </div>

@@ -21,11 +21,6 @@ const Contact = () => {
             </div>
             <div className = "info">
                 <h2>Talk to you soon!</h2>
-                <div className = "contact">
-                    <h3>Github:</h3>
-                    <h3>Email:</h3>
-                    <h3>LinkedIn:</h3>
-                </div>
             </div>
         </div>
      );
