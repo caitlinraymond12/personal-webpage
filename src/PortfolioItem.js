@@ -5,7 +5,7 @@ const PortfolioItem = ({portfolios}) => {
 
     return ( 
         <div className ='portfolioItem'>
-            { portfolios.map((portfolio) => (
+            { portfolios.map((portfolio) =>(
                 <div className = 'portfolio-list' key={portfolio.id}>
                     <div class="container">
                         <img src={portfolio.img}/>
@@ -15,7 +15,12 @@ const PortfolioItem = ({portfolios}) => {
                     </div>
                     <div className = "info">
                         <h1>{portfolio.name}</h1>
-                        <p>{portfolio.description}</p> 
+                        <p>{portfolio.description}</p>
+                        <div className = "language-icons">
+                            {portfolio.language?.map((IconComponent, index) =>(
+                                <IconComponent key={index} className="language-icon" />
+                            ))}
+                        </div>
                     </div>
                  </div>
             ))}

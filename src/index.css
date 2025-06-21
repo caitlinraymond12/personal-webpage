@@ -75,7 +75,7 @@ code {
 }
 
 .navbar a:hover {
-  color:brown;
+  color: #6F1313;
 }
 
 
@@ -187,13 +187,13 @@ code {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
   gap: 5%;
+  align-items: start;
 }
 
 
 
 .portfolioItem .portfolio-list {
   max-width: 100%;
-  height: auto;
   padding: 1%;
   border: 2px solid #000000;
   background-color: #090a31;
@@ -201,8 +201,7 @@ code {
 }
 
 .portfolioItem .portfolio-list .info {
-  padding: 3%
-
+  padding: 3%;
 }
 
 
@@ -257,6 +256,18 @@ code {
   border-radius: 22px;
 }
 
+.portfolioItem .language-icons{
+  display: flex;
+  padding: 2%;
+  gap: 5%;
+  font-size: 48px;
+  color: white;
+  background-color: #6F1313;
+  border-radius: 40px;
+  padding-left: 5%;
+  justify-items: center;
+}
+
 
 /* Contact Styling */
 
@@ -273,20 +284,73 @@ code {
   text-underline-offset: 10px;
 }
 
-.contact p {
-  font-size: 23px;
-  max-width: 300px;
-}
-
-.contact h2 {
-  font-size: 60px;
-  max-width: 33%;
+.contact .reasons p {
+    font-size: 23px;
+    max-width: 300px;
 }
 
 .contact .reasons {
   display: flex;
   gap:15%;
 }
+
+.contact .info p {
+    font-size: 23px; 
+}
+
+.contact h2 {
+  font-size: 60px;
+}
+
+
+.contact .contact-form {
+  display: flex;
+  gap: 10%;
+  
+}
+
+.contact .info {
+  width: 50%;
+  align-content: center;
+ 
+}
+
+.contact .form {
+  margin-top: 5%;
+  width: 50%;
+  align-content: center;
+}
+
+
+
+/* Contact Form Styling */
+
+.contact-me {
+  background-color: #6F1313;
+  border-radius: 40px;
+  padding: 7%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 25px;
+}
+
+.contact-me label {
+  display: block;
+  margin-bottom: 2%;
+}
+
+.contact-me input, textarea{
+  background-color: #360909;
+  color: white;
+  width: 100%;
+  height: 40px;
+}
+
+.contact-me textarea{
+  height: 80px;
+}
+
 
 
 /* Flipcard Styling */
@@ -360,12 +424,16 @@ code {
 }
 
 
+
+
 /* Footer Styling */
 
 .footer {
   background-color: #090a31;
   padding: 2%;
 }
+
+
 
 
 

@@ -1,4 +1,5 @@
 import Flipcard from "./Flipcard";
+import { ContactMe } from "./ContactMe";
 
 
 const Contact = () => {
@@ -19,8 +20,14 @@ const Contact = () => {
                     <Flipcard />
                 </div>
             </div>
-            <div className = "info">
-                <h2>Talk to you soon!</h2>
+            <div className = "contact-form">
+                <div className = "info">
+                    <h2>Talk to you soon!</h2>
+                    <p>Want to send me a message? Fill out the following form to quickly and easily send me a message directly in browser. </p>
+                </div>
+                <div className = "form">
+                    <ContactMe />
+                </div>
             </div>
         </div>
      );
