@@ -299,6 +299,10 @@ code {
     padding-right: 5%;
 }
 
+.languages p {
+  font-size: 18px;
+}
+
 .lang-box {
   display: flex;
   gap: 2%;
@@ -317,19 +321,18 @@ code {
 
 
 
-
-
 /* Portfolio styling */
+
 
 .portfolio {
   color: var(--font);
   font-size: 20px;
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 15%;
 }
 
-.portfolio h1 {
+.portfolio .header h1 {
   text-decoration: underline;
   text-decoration-thickness: 5px;
   text-underline-offset: 10px;
@@ -392,6 +395,8 @@ code {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  display: flex;
+  gap: 20px;
 }
 
 .container:hover img {
@@ -400,13 +405,21 @@ code {
 
 .container:hover .middle {
   opacity: 1;
+
 }
 
 .github-icon-1 {
   color: black;
   font-size: 48px;
   background-color: white;
-  border-radius: 22px;
+  border-radius: 24px;
+}
+
+.game-icon {
+  color: white;
+  background-color: black;
+  font-size: 48px;
+  border-radius: 24px;
 }
 
 .portfolioItem .language-icons{

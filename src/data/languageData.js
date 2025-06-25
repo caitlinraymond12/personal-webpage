@@ -1,5 +1,5 @@
 import cImg from '../images/c.png'
-import csharpImg from '../images/csharp2.png'
+import csharpImg from '../images/csharp.png'
 import pythonImg from '../images/python.png'
 import javaImg from '../images/javascript.png'
 import rImg from '../images/r.png'

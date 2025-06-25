@@ -1,4 +1,5 @@
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaGamepad } from 'react-icons/fa';
+
 
 const PortfolioItem = ({portfolios}) => {
 
@@ -11,6 +12,7 @@ const PortfolioItem = ({portfolios}) => {
                         <img src={portfolio.img}/>
                         <div class="middle">
                             <a href={portfolio.link} rel="noopener" target = '_blank'><FaGithub className="github-icon-1" / ></a>
+                            {portfolio.play && <a href={portfolio.play} rel="noopener" target = '_blank'><FaGamepad className="game-icon" / ></a>}
                         </div>
                     </div>
                     <div className = "info">

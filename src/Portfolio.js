@@ -3,12 +3,12 @@ import projects from "./data/projectData"
 
 
 const Portfolio = () => {
-    
-    
-    
+
     return ( 
         <div className = "portfolio">
-            <h1>Portfolio</h1>
+            <div className = "header">
+                <h1>Portfolio</h1>
+            </div>
             <PortfolioItem portfolios = {projects} />
         </div>
      );
