@@ -22,7 +22,7 @@ const languages = [
     {
       name: "R",
       img: rImg,
-      description: "At the begining of my sophmore year, I became interested in data science, and thus, I began to learn R/RStudio. Over the course of the semester, I worked on 12 different projects utilizing R, and explore concepts relating to prediction, sampling, hypothesis testing, and other important concepts.",
+      description: "At the begining of my sophmore year, I became interested in data science, and thus, I began to learn R/RStudio. Over the course of the semester, I worked on 12 different projects utilizing R, and explore topics relating to prediction, sampling, hypothesis testing, and other important concepts.",
       id:3
     },
 

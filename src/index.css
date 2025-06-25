@@ -69,6 +69,7 @@ code {
   box-sizing: border-box;
 }
 
+
 .content {
   padding-top: 20px ;
 }
@@ -344,6 +345,10 @@ code {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
   gap: 5%;
   align-items: start;
+}
+
+.portfolioItem p {
+  font-size:medium;
 }
 
 
