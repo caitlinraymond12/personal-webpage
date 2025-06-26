@@ -6,8 +6,11 @@ import gameImg from '../images/game.png'
 import nimImg from '../images/nim.png'
 import queenImg from '../images/queens.png'
 import danceImg from '../images/dance.png'
+import rImg from '../images/hurricane.png'
+import caseImg from '../images/caseStudy.png'
 import { FaPython, FaJs, FaHtml5, FaCss3} from 'react-icons/fa';
 import { PiFileCpp, PiFileCSharp } from 'react-icons/pi';
+import { SiRstudioide } from 'react-icons/si'
 
 const projects = [
     {
@@ -74,18 +77,33 @@ const projects = [
        img: danceImg,
        description: "This game was developed as a minigame to be incorporated into Answer Campus, a game being developed by NERDLab here at Univeristy of Miami. The game shows a dance floor, and a pattern will light up on it. You must click the pattern in the correct order while avoiding the other people,and complete as many as you can in just 90 seconds.",
        link: "https://github.com/caitlinraymond12/NERDLab",
-       play: "https://caitlinraymond.itch.io/astro-quest",
+       play: "https://caitlinraymond.itch.io/memory-dance",
        language: [PiFileCSharp],
        id:8
     },
     {
        name: "Various R Projects",
-       img: danceImg,
-       description: "All of the projects in this folder were homeworks and labs from a data science course. They each explore a concepts such as probability, sampling, and statistical significance using interesting topics such as the 2014 NFL Deflategate, the Monty Hall Problem, ",
-       link: "https://github.com/caitlinraymond12/NERDLab",
-       play: "https://caitlinraymond.itch.io/astro-quest",
-       language: [PiFileCSharp],
+       img: rImg,
+       description: "Homework and Labs from a previous data science class that explored many statistical topics. Data visualization was used to show the relationship between hurricanes and air pressure, simulation was used to recreate the Monty Hall Problem, and statistics were used to predict the next time Old Faithful would erupt. ",
+       link: "https://github.com/caitlinraymond12/projects/tree/main/RStudio",
+       language: [SiRstudioide],
        id:9
+    },
+    {
+       name: "Case Study",
+       img: caseImg,
+       description: "This is the case study that I worked on at the end of the Google Data Analytics Course. The purpose was to pose as a marketing agent for a bike sharing company and analyze the given data to determine the differences between casual and annual members, and determine the steps to be taken to convert the casual members to the more profitable annual members. ",
+       link: "https://github.com/caitlinraymond12/projects/tree/main/RStudio/Case%20Study",
+       language: [SiRstudioide],
+       id:10
+    },
+    {
+       name: "Picza",
+       img: caseImg,
+       description: "Homework and Labs from a previous data science class that explored many statistical topics. Data visualization was used to show the relationship between hurricanes and air pressure, simulation was used to recreate the Monty Hall Problem, and statistics were used to predict the next time Old Faithful would erupt. ",
+       link: "https://github.com/caitlinraymond12/projects/tree/main/RStudio/Case%20Study",
+       language: [SiRstudioide],
+       id:10
     }
 ];
 

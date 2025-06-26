@@ -342,9 +342,10 @@ code {
 
 .portfolioItem {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-  gap: 5%;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1% 3%;
   align-items: start;
+
 }
 
 .portfolioItem p {
@@ -374,7 +375,6 @@ code {
   opacity: 1;
   display: block;
   transition: .3s ease;
-
 }
 
 .portfolioItem .portfolio-list h1 {
