@@ -377,7 +377,7 @@ code {
   transition: .3s ease;
 }
 
-.portfolioItem .portfolio-list h1 {
+.portfolioItem .portfolio-list h2 {
   margin-bottom: -10px;
 }
 

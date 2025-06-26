@@ -8,9 +8,12 @@ import queenImg from '../images/queens.png'
 import danceImg from '../images/dance.png'
 import rImg from '../images/hurricane.png'
 import caseImg from '../images/caseStudy.png'
-import { FaPython, FaJs, FaHtml5, FaCss3} from 'react-icons/fa';
+import piczaImg from '../images/picza.png'
+
+import { FaPython, FaJs, FaHtml5, FaCss3, FaReact} from 'react-icons/fa';
 import { PiFileCpp, PiFileCSharp } from 'react-icons/pi';
 import { SiRstudioide } from 'react-icons/si'
+
 
 const projects = [
     {
@@ -99,11 +102,11 @@ const projects = [
     },
     {
        name: "Picza",
-       img: caseImg,
-       description: "Homework and Labs from a previous data science class that explored many statistical topics. Data visualization was used to show the relationship between hurricanes and air pressure, simulation was used to recreate the Monty Hall Problem, and statistics were used to predict the next time Old Faithful would erupt. ",
-       link: "https://github.com/caitlinraymond12/projects/tree/main/RStudio/Case%20Study",
-       language: [SiRstudioide],
-       id:10
+       img: piczaImg,
+       description: "This is a project that I collaborated on with my good friend and fellow computer engineer Gael Garcia. My contribution was creating the afternoon and night competitions based on his already created morning competition, consolidating 12 files into just 4, and fixing various formatting issues throughout the app.",
+       link: "https://github.com/GG1627/Picza",
+       language: [FaReact],
+       id:11
     }
 ];
 

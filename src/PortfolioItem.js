@@ -16,7 +16,7 @@ const PortfolioItem = ({portfolios}) => {
                         </div>
                     </div>
                     <div className = "info">
-                        <h1>{portfolio.name}</h1>
+                        <h2>{portfolio.name}</h2>
                         <p>{portfolio.description}</p>
                         <div className = "language-icons">
                             {portfolio.language?.map((IconComponent, index) =>(
