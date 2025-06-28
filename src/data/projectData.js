@@ -103,7 +103,7 @@ const projects = [
     {
        name: "Picza",
        img: piczaImg,
-       description: "This is a project that I collaborated on with my good friend and fellow computer engineer Gael Garcia. My contribution was creating the afternoon and night competitions based on his already created morning competition, consolidating 12 files into just 4, and fixing various formatting issues throughout the app.",
+       description: "This is a project that I collaborated on with my good friend and fellow computer engineer Gael Garcia. I focused on developing the competitions page, which allows students to compete against one another in different food-based challenges. I was also able to clean up parts of the code, consolidated 12 files into just 4, and fixed various formatting issues throughout the app.",
        link: "https://github.com/GG1627/Picza",
        language: [FaReact],
        id:11
