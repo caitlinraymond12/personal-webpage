@@ -62,7 +62,7 @@ const projects = [
     {
        name: "N-Queens Problem",
        img: queenImg,
-       description: "This program is able to successfully solve the N-queens problem by using a best first search where the heuristic defined as the number of conflicts on the chess board. It can solve boards with N up to 30 in under a second, and even with N as high as 100 it only takes about 20 seconds.",
+       description: "This program is able to successfully solve the N-queens problem by using a best first search where the is heuristic defined as the number of conflicts on the chess board. It can solve boards with N up to 30 in under a second, and even with N as high as 100 it only takes about 20 seconds.",
        link: "https://github.com/caitlinraymond12/projects/tree/main/Python%20Projects/n-queens-problem/README.md",
        language: [FaPython],
        id:6
