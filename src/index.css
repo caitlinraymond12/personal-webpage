@@ -423,7 +423,33 @@ code {
 }
 
 
+/* Sorting/Filtering */
 
+.controls {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.control-group label {
+  font-weight: bold;
+  font-family: 'Retro Body';
+}
+
+.control-group select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: var(--accent);
+  color: var(--font);
+  font-size: 14px;
+}
 
 /* Portfolio styling */
 
