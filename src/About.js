@@ -4,19 +4,31 @@ import Languages from './Languages'
 
 const About = () => {
     return (
-        <div classNae = "aboutOuter">
-            <div className = "about">
-                <div className = "info">
+        <div classNae="aboutOuter">
+            <div className="about">
+                <div className="info">
                     <h1>About</h1>
-                    <p>Hello! My name is Caitlin Raymond, I'm a junior at the University of Miami studying computer engineering with a minor in interactive media. Going into college, I didn't know much about the tech world. I had taken an introductory computer science class in high school and decided coding was a lot of fun, so I decided to explore that path when selecting my major. That decision ended up being the best decision of my life. In just two years at the University of Miami, I have learned five different coding languages, worked on countless projects, and joined many different tech based organizations. I'm a very creative person and I love learning new skills, so it's very exciting to me to be able to apply what I've learned in the classroom to my own personal projects and be proud of what I've created. My favorite thing about what I do is that if I want something to exist, I can create it myself, and can create it exactly how I want it to be.</p>
+                    <p> Hello! My name is Caitlin Raymond. I'm a junior at the University of Miami studying computer engineering
+                        with a minor in interactive media. One thing about me is I love learning and am constantly chasing the
+                        thrill of facing and overcoming new challenges. I am constantly learning a new software or coding in a
+                        new programming language, so I know that the ever-evolving tech world is where I belong. In just three
+                        years at the University of Miami, I have learned 10 different programming languages, completed countless
+                        projects involving pure software and software/hardware interations, interned at a remote start up based
+                        here in Miami, have been involved in two different research projects, and helped develop a published
+                        game on Unity. I'm a very creative person and I love learning new skills, so it's exciting to me to be
+                        able to apply what I've learned in the classroom to outside projects and be proud of what I've learned
+                        and created. My favorite thing about programming is if I want something to exist, I can create it myself,
+                        and create it exactly how I want it to be.  </p>
                 </div>
-                <div className = "headshot">
+                <div className="headshot">
                     <img src={headshot} alt="headshot" />
                 </div>
             </div>
-            <Languages languages={language} / >
+            <section id="languages">
+                <Languages languages={language} />
+            </section>
         </div>
-      );
+    );
 }
- 
+
 export default About;
